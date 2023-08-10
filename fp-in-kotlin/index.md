@@ -1,4 +1,5 @@
 ---
+baseurl: fp-in-kotlin
 permalink: fp-in-kotlin
 title: FP in Kotlin
 description: I'll document particular insights about Kotlin functional designs I figure out.

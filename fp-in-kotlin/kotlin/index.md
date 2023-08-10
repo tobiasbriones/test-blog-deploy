@@ -1,5 +1,6 @@
 ---
-permalink: /fp-in-kotlin/kotlin
+baseurl: fp-in-kotlin/kotlin
+permalink: fp-in-kotlin/kotlin
 title: fp-in-kotlin/kotlin
 ---
 
