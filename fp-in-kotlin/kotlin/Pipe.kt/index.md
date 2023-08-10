@@ -1,5 +1,5 @@
 ---
-permalink: fp-in-kotlin/kotlin/Pipe.kt/index.html
+permalink: fp-in-kotlin/kotlin/Pipe.kt.html
 title: fp-in-kotlin/kotlin/Pipe.kt
 ---
 
