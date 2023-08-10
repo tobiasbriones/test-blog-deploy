@@ -2,6 +2,8 @@
 // SPDX-License-Identifier: BSD-3-Clause
 // This file is part of https://github.com/tobiasbriones/blog
 
+// amet
+
 infix fun <X, Y> X.`---`(f: (X) -> Y): Y = f(this)
 
 data class Article(val title: Title, val content: String)
