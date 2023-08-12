@@ -580,7 +580,13 @@
         // It's a file like DataTest.java
         // This path update is necessary since Netlify lowercase the path
         if (pageTitle.includes('.')) {
-            history.replaceState(null, null, '/' + pageTitle);
+            const currentPath = window.location.pathname;
+            const pathSegments = currentPath.split('/');
+
+            pathSegments[pathSegments.length - 1] = pageTitle;
+            const newPath = pathSegments.join('/');
+
+            history.replaceState(null, null, newPath);
         }
     }
 
