@@ -1,3 +1,6 @@
+_site
+.sass-cache
+
 # Bypass the global .gitignore
 
 # Accept specific static files
