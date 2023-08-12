@@ -385,6 +385,7 @@
 
         initMenu();
         initNav();
+        updateFilePath();
 
         function initMenu() {
             const navButton = document.getElementById('nav-item');
@@ -529,7 +530,6 @@
         }
     }
 
-
     function getFocusedHeading() {
         const headings = selectHeadings();
         const isVisible = heading => {
@@ -572,6 +572,16 @@
             }
         }
         return invisibleHeadingClosestToTop;
+    }
+
+    function updateFilePath() {
+        const pageTitle = document.querySelector('h1').textContent;
+
+        // It's a file like DataTest.java
+        // This path update is necessary since Netlify lowercase the path
+        if (pageTitle.includes('.')) {
+            history.replaceState(null, null, '/' + pageTitle);
+        }
     }
 
     function selectHeadings() {
