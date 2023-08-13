@@ -6,7 +6,7 @@ title: building-slides-from-screenshots-app-in-javafx/slides---ep
 # slides---ep
 <ul>
   <li>
-    <a href=".gitignore">
+    <a href="https://github.com/tobiasbriones/blog/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/.gitignore" target="_blank">
       .gitignore
     </a>
   </li>
