@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app-512x512.png.html
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app-512x512.png
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app-512x512.png"
 ---
 
 # app-512x512.png

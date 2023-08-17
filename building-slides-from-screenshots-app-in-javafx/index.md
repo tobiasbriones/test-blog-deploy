@@ -1,8 +1,8 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx
-title: Building Slides from Screenshots App in JavaFX
-description: I wanted to build a little presentation from my daily work, so I took thescreenshots to work them out in Photopea[^x].
-ogimage: 
+title: "Building Slides from Screenshots App in JavaFX"
+description: "I wanted to build a little presentation from my daily work, so I took the screenshots to work them out in Photopea[^x]."
+ogimage: ""
 ---
 
 

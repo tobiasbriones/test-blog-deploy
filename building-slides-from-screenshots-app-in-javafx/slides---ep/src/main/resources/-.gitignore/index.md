@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/.gitignore.html
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/.gitignore
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/.gitignore"
 ---
 
 # .gitignore

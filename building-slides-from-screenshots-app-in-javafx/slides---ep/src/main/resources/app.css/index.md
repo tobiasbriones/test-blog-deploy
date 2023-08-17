@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app.css.html
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app.css
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app.css"
 ---
 
 # app.css

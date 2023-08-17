@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/META-INF/MANIFEST.MF.html
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/META-INF/MANIFEST.MF
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/META-INF/MANIFEST.MF"
 ---
 
 # MANIFEST.MF

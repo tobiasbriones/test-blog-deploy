@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/readme.md.html
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/readme.md
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/readme.md"
 ---
 
 # readme.md

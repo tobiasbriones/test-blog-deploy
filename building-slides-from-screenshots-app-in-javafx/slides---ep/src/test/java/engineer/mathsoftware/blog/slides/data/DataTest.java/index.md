@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/test/java/engineer/mathsoftware/blog/slides/data/DataTest.java.html
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/test/java/engineer/mathsoftware/blog/slides/data/DataTest.java
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/test/java/engineer/mathsoftware/blog/slides/data/DataTest.java"
 ---
 
 # DataTest.java

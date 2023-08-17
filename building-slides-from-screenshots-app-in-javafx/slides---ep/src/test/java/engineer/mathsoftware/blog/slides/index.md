@@ -1,6 +1,6 @@
 ---
 permalink: building-slides-from-screenshots-app-in-javafx/slides---ep/src/test/java/engineer/mathsoftware/blog/slides
-title: building-slides-from-screenshots-app-in-javafx/slides---ep/src/test/java/engineer/mathsoftware/blog/slides
+title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/test/java/engineer/mathsoftware/blog/slides"
 ---
 
 # slides
