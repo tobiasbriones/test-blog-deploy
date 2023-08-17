@@ -1,8 +1,8 @@
 ---
 permalink: pi-day-2022-03-14
-title: Pi Day (2022/03/14)
-description: **Piaxid Monochromatic 1/4**
-ogimage: 
+title: "Pi Day (2022/03/14)"
+description: "Pi is my official and favorite constant and today is 3/14 day when the Pi constant is celebrated."
+ogimage: ""
 ---
 
 
