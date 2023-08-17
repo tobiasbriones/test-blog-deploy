@@ -1,6 +1,6 @@
 ---
 permalink: fp-in-kotlin/kotlin
-title: fp-in-kotlin/kotlin
+title: "fp-in-kotlin/kotlin"
 ---
 
 # kotlin

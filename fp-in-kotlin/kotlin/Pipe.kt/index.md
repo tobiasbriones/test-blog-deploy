@@ -1,6 +1,6 @@
 ---
 permalink: fp-in-kotlin/kotlin/Pipe.kt.html
-title: fp-in-kotlin/kotlin/Pipe.kt
+title: "fp-in-kotlin/kotlin/Pipe.kt"
 ---
 
 # Pipe.kt
