@@ -1,8 +1,8 @@
 ---
 permalink: ddo-and-power-bi-overview
-title: Data-Driven Organizations and Power BI Overview
-description: Image fromby Mariakray
-ogimage: 
+title: "Data-Driven Organizations and Power BI Overview"
+description: "An introductory framework about the data-driven culture and why it's fundamental for any business is given in this article, then an overview is given to understand software like Power BI or Tableau and how they can be advantageous for your organization. This information is introductory and useful for any stakeholder or data analyst."
+ogimage: ""
 ---
 
 
@@ -314,7 +314,12 @@ following comparison:
  Within IT              | Everywhere                   |
  IT-risk-focused        | Business-risk-focused        |
 
-Source: *CIO Agenda 2018* \| Gartner [4]
+<figcaption>
+<p align="center">
+<strong>
+Source: <it>CIO Agenda 2018</it> | Gartner [4]
+</strong></p>
+</figcaption>
 
 ### Watch Out Fake Friends
 
