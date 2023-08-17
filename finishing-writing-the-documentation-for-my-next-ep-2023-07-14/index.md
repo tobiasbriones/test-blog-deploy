@@ -1,8 +1,8 @@
 ---
 permalink: finishing-writing-the-documentation-for-my-next-ep-2023-07-14
-title: Finishing Writing the Documentation for my Next EP (2023-07-14)
-description: I'm about to publish my first and next Blog with EP "Building Slides fromScreenshots App in JavaFX," now that I finished all the code I wanted to add tothe project yesterday, so I just have to blog it to its (extensive) article,tackle a few details more, and add the abstract.
-ogimage: 
+title: "Finishing Writing the Documentation for my Next EP (2023-07-14)"
+description: "I'm about to publish my first and next Blog with EP \"Building Slides from Screenshots App in JavaFX,\" now that I finished all the code I wanted to add to the project yesterday, so I just have to blog it to its (extensive) article, tackle a few details more, and add the abstract."
+ogimage: ""
 ---
 
 
