@@ -1,8 +1,8 @@
 ---
 permalink: i-just-turned-the-lights-off-put-my-headphones-on-and-read-this-crazy-paper-about-swe-commandments-2022-10-15
-title: I Just Turned the Lights Off, Put My Headphones On, and Read This Crazy Paper About SWE Commandments (2022/10/15)
-description: I just turned the lights off, put my headphones on, and read this crazypaper:[Programming the Universe: The First Commandment of Software Engineering for allVarieties of Information Systems](https://arxiv.org/ftp/arxiv/papers/1609/1609.07818.pdf).
-ogimage: 
+title: "I Just Turned the Lights Off, Put My Headphones On, and Read This Crazy Paper About SWE Commandments (2022/10/15)"
+description: "I just turned the lights off, put my headphones on, and read this crazy paper: [Programming the Universe: The First Commandment of Software Engineering for all Varieties of Information Systems](https://arxiv.org/ftp/arxiv/papers/1609/1609.07818.pdf)."
+ogimage: ""
 ---
 
 
