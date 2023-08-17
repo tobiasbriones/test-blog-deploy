@@ -1,5 +1,5 @@
 ---
-permalink: everything-is-relative
+permalink: everything-is-relative/
 title: "Everything is Relative"
 description: "Your life is going to change like mine did when you truly understand that everything is relative."
 ogimage: ""
