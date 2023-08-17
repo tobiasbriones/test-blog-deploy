@@ -1,8 +1,8 @@
 ---
 permalink: 4-years-since-vocational-fair-at-unah-vs-2023-05-09
-title: 4 Years Since Vocational Fair at UNAH-VS (2023-05-09)
-description: I was motivated to engage in the vocational fair at UNAH-VS 2019 to undertakeself-lead SWE and electronics projects to show the applications of mathematicsas a personal challenge which I tell and depict in this article.
-ogimage: 
+title: "4 Years Since Vocational Fair at UNAH-VS (2023-05-09)"
+description: "I was motivated to engage in the vocational fair at UNAH-VS 2019 to undertake self-lead SWE and electronics projects to show the applications of mathematics as a personal challenge which I tell and depict in this article."
+ogimage: ""
 ---
 
 
