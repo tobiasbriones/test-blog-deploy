@@ -1,8 +1,8 @@
 ---
 permalink: this-article-represents-a-milestone-for-me-2022-12-18
-title: This Article Represents a Milestone for Me (2022/12/18)
-description: From recent results, I will develop my experience, content design, and some newsrepresenting one of my latest milestones on 2022/12/18.
-ogimage: 
+title: "This Article Represents a Milestone for Me (2022/12/18)"
+description: "From recent results, I will develop my experience, content design, and some news representing one of my latest milestones on 2022/12/18."
+ogimage: ""
 ---
 
 
