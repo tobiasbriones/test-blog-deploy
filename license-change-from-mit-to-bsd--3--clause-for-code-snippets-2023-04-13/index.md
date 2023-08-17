@@ -1,8 +1,8 @@
 ---
 permalink: license-change-from-mit-to-bsd--3--clause-for-code-snippets-2023-04-13
-title: License Change from MIT to BSD-3-Clause for Code Snippets (2023/04/13)
-description: As of now, source code inside articles in MathSoftware.Engineer are licensed under the BSD-3-Clause License, which supersedes the initial MIT License. 
-ogimage: 
+title: "License Change from MIT to BSD-3-Clause for Code Snippets (2023/04/13)"
+description: "As of now, source code inside articles in MathSoftware.Engineer are licensed  under the BSD-3-Clause License, which supersedes the initial MIT License. "
+ogimage: ""
 ---
 
 
