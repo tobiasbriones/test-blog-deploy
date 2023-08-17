@@ -1,8 +1,8 @@
 ---
 permalink: pi-day-2023-03-14
-title: Pi Day (2023/03/14)
-description: **Piaxid Monochromatic 1/4: Axiom**
-ogimage: 
+title: "Pi Day (2023/03/14)"
+description: "Axioms are the fundamental unit of mathematical logic that inductively enable creation."
+ogimage: ""
 ---
 
 
