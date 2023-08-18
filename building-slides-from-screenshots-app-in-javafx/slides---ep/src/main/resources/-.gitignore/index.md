@@ -6,6 +6,7 @@ title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/reso
 # .gitignore
 ```
 tessdata
+META-INF
 
 ```
 <div class="social open-gh-btn my-4">
