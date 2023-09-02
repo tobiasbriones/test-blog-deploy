@@ -24,7 +24,7 @@ Basic:
 - Internet Browser
 - Text editor/IDE (Webstorm, VSC, ...)
 - GitHub
-- Tree object (provided [here](web/tree/root-node.json))
+- Tree object (provided [here](web/static/root-node.json))
 
 ## Bibliography
 

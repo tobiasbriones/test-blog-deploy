@@ -99,15 +99,15 @@ Create into your HTML a `div` containing the `canvas` in which we are going to
 draw.
 
 ```html
-<div id="solutionTreeParent">
-  <canvas id="solutionTree"></canvas>
+<div id="solutionsTreeParent">
+  <canvas id="solutionsTree"></canvas>
 </div>
 ```
 
 Some styles can be added.
 
 ```css
-#solutionTreeParent {
+#solutionsTreeParent {
   width: 100%;
   height: 720px;
   overflow-x: auto;
@@ -132,15 +132,17 @@ function getHypotenuse(triangleX: number, triangleY: number) {
 
 #### Resources
 
-- [root-node.json](web/tree/root-node.json): sample tree object to render.
-- [model.ts](web/src/model.ts): assumed data model.
-- [mrm-canvas.ts](web/src/mrm-canvas.ts): underlying module.
+- [root-node.json](mrm-solution-tree---ep/files/root-node.json): sample tree
+  object to render.
+- [model.ts](mrm-solution-tree---ep/src/model.ts): assumed data model.
+- [mrm-canvas.ts](mrm-solution-tree---ep/src/mrm-canvas.ts): underlying module.
 - [gh-pr](https://github.com/repsymo/2dp-repsymo-solver/pull/21): pull request
   containing the initial step-by-step development.
 
 ##### Other Resources
 
-- [triangle.py](triangle.py): generates the rectangle triangles figure.
+- [triangle.py](mrm-solution-tree---ep/files/triangle.py): generates the
+  rectangle triangles figure.
 
 ### Tree Model
 
@@ -233,8 +235,8 @@ ctx.stroke();
 ```
 
 To draw the $$X$$ axis labels, set the text-align center and draw the abscissa
-value from $$0$$ until a maximum set value. There is a variable `cellSizePx`
-that tells the width and height of each cell in the $$XY-plane$$ (first
+value from $$0$$$ until a maximum set value. There is a variable `cellSizePx`
+that tells the width and height of each cell in the $$XY-plane$$$ (first
 quadrant).
 
 ```ts
@@ -318,7 +320,7 @@ class TreeAxesCanvas extends MrmCanvas {
 Then
 
 ```ts
-const canvasEl = document.getElementById('solutionTree') as HTMLCanvasElement;
+const canvasEl = document.getElementById('solutionsTree') as HTMLCanvasElement;
 const axesCanvas = new TreeAxesCanvas();
 
 axesCanvas.init(canvasEl);
@@ -333,7 +335,7 @@ The tree canvas is quite more complicated. The class consists of the following
 structure:
 
 ```ts
-class SolutionTreeCanvas extends MrmCanvas {
+class SolutionsTreeCanvas extends MrmCanvas {
   private readonly axesCanvas: TreeAxesCanvas;
   public rootNode: TreeNode;
   private radiusPx: number;
@@ -398,7 +400,7 @@ const cp = {
 }
 ```
 
-#### Drawing a Node (`drawNode`)
+#### Drawing a Node
 
 This is the recursive function to populate the whole tree from the root node.
 **We take care of memoization to dynamically store the drawn nodes**. For
@@ -428,7 +430,7 @@ So, it takes three steps:
 The method `drawNodeLines` calls back to this method so initiates the recursion
 process. That one is left to the end as it's the harder.
 
-#### Node Circle and Content (`drawNodeCircle` and `drawNodeContent`)
+#### Node Circle and Content
 
 These are pretty straightforward.
 
@@ -464,17 +466,17 @@ By running at this stage we obtain the first node drawn representing the initial
 decision year:
 
 ```ts
-const canvasEl = document.getElementById('solutionTree') as HTMLCanvasElement;
-const canvas = new SolutionTreeCanvas();
-canvas.rootNode = this.solver.getSolutionTree(); // Use your tree here
+const canvasEl = document.getElementById('solutionsTree') as HTMLCanvasElement;
+const canvas = new SolutionsTreeCanvas();
+canvas.rootNode = this.solver.getSolutionsTree(); // Use your tree here
 
 canvas.init(canvasEl);
 canvas.render();
 ```
 
-![Drawing the Node Circle and Content](drawing-the-node-circle-and-content.png)
+![Drawing Node Circle and Content](drawing-node-circle-and-content.png)
 
-#### Line with Labels from Node-to-Node (`drawNodeLines`)
+#### Line with Labels from Node-to-Node
 
 First, we need some definitions to address this challenge:
 
@@ -599,9 +601,9 @@ scroll, etc. Performance should be considered here.
 By importing the developed module, the API is then consumed as follows:
 
 ```ts
-const canvasEl = document.getElementById('solutionTree') as HTMLCanvasElement;
-const canvas = new SolutionTreeCanvas();
-const tree = this.solver.getSolutionTree(); // Replace with your tree
+const canvasEl = document.getElementById('solutionsTree') as HTMLCanvasElement;
+const canvas = new SolutionsTreeCanvas();
+const tree = this.solver.getSolutionsTree(); // Replace with your tree
 
 canvas.rootNode = tree;
 canvas.init(canvasEl);
@@ -613,7 +615,7 @@ By running now, we get the desired result:
 
 ![Solution Tree Canvas](solution-tree-canvas.png)
 
-The result is deployed and can be run from the [web endpoint](web).
+The result is deployed to the [web directory](https://mathsoftware.engineer/drawing-a-tree-on-canvas-with-xy-coordinates/web).
 
 ## Analysis
 
@@ -640,7 +642,7 @@ Hence, the `drawNode` function is called $$21$$ times to render the whole
 tree but just $$15$$ of those are full rendering.
 
 **With memoization off is visually clear that nodes are being rendered on top of
-themselves**, so it's easy to spot that flaw (notice node $$(4, 1)$$ for
+themselves**, so it's easy to stop that flaw (notice node $$(4, 1)$$ for
 instance):
 
 ![Memoization Off](memoization-off.png)
@@ -663,10 +665,6 @@ Recall that, as said above, the last nodes from the bottom are *partially
 drawn* more times later.
 
 ![Drawing Order](drawing-order.png)
-
-The following animation details the above process:
-
-![Drawing Order](drawing-order.gif)
 
 ## More Recursion
 

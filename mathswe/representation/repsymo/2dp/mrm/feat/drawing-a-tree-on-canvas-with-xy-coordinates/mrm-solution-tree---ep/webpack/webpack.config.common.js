@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const plugins = [
   new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
@@ -11,12 +10,7 @@ const plugins = [
       filename: 'index.html',
       chunks: ['main'],
     }
-  ),
-  new CopyWebpackPlugin({
-    patterns: [
-      { from: 'tree' }
-    ]
-  })
+  )
 ];
 
 module.exports = {

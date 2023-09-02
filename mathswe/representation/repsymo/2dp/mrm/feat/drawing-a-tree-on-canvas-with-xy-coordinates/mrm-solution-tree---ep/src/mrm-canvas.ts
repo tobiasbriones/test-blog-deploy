@@ -1,5 +1,5 @@
 // Copyright (c) 2022 Tobias Briones. All rights reserved.
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: BSD-3-Clause
 // This file is part of https://github.com/mathsoftware/engineer
 //
 // This file is also available at https://github.com/repsymo/2dp-repsymo-solver
@@ -7,7 +7,7 @@
 
 import { TreeNode, newTreeNode } from './model';
 
-export const parentElId = 'solutionTreeParent';
+export const parentElId = 'solutionsTreeParent';
 
 export abstract class MrmCanvas {
   public padding: number;
@@ -51,7 +51,7 @@ export abstract class MrmCanvas {
 
 // You should delete the @ts-ignore comments //
 
-export class SolutionTreeCanvas extends MrmCanvas {
+export class SolutionsTreeCanvas extends MrmCanvas {
   private readonly axesCanvas: TreeAxesCanvas;
   public rootNode: TreeNode;
   private radiusPx: number;

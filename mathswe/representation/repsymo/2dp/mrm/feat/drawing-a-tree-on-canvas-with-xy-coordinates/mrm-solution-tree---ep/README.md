@@ -1,8 +1,8 @@
 <!-- Copyright (c) 2022 Tobias Briones. All rights reserved. -->
-<!-- SPDX-License-Identifier: MIT -->
+<!-- SPDX-License-Identifier: BSD-3-Clause -->
 <!-- This file is part of https://github.com/mathsoftware/engineer -->
 
-# Drawing a Tree on Canvas with XY Coordinates (Web)
+# Draw a Tree on Canvas with XY Coordinates (Web)
 
 This project contains the source code for this entry.
 
