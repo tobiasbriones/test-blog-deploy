@@ -13,7 +13,7 @@ package engineer.mathsoftware.blog.slides.drawing;
 
 ```
 <div class="social open-gh-btn my-4">
-  <a class="btn btn-github" href="https://github.com/tobiasbriones/blog/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/java/engineer/mathsoftware/blog/slides/drawing/package-info.java" target="_blank">
+  <a class="btn btn-github" href="https://github.com/tobiasbriones/test-blog-deploy/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/java/engineer/mathsoftware/blog/slides/drawing/package-info.java" target="_blank">
     <i class="fab fa-github">
       
     </i>

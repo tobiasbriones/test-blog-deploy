@@ -6,7 +6,7 @@ title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/reso
 # app-512x512.png
 <img src="app-512x512.png" alt="app-512x512.png" />
 <div class="social open-gh-btn my-4">
-  <a class="btn btn-github" href="https://github.com/tobiasbriones/blog/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app-512x512.png" target="_blank">
+  <a class="btn btn-github" href="https://github.com/tobiasbriones/test-blog-deploy/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/app-512x512.png" target="_blank">
     <i class="fab fa-github">
       
     </i>

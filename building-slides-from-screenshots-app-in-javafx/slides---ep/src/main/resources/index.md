@@ -6,7 +6,7 @@ title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/reso
 # resources
 <ul>
   <li>
-    <a href="https://github.com/tobiasbriones/blog/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/.gitignore" target="_blank">
+    <a href="https://github.com/tobiasbriones/test-blog-deploy/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources/.gitignore" target="_blank">
       .gitignore
     </a>
   </li>
@@ -77,7 +77,7 @@ title: "building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/reso
   </li>
 </ul>
 <div class="social open-gh-btn my-4">
-  <a class="btn btn-github" href="https://github.com/tobiasbriones/blog/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources" target="_blank">
+  <a class="btn btn-github" href="https://github.com/tobiasbriones/test-blog-deploy/tree/main/swe/dev/java/javafx/drawing/productivity/building-slides-from-screenshots-app-in-javafx/slides---ep/src/main/resources" target="_blank">
     <i class="fab fa-github">
       
     </i>
