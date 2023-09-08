@@ -49,12 +49,12 @@ async function loadTree(): Promise<TreeNode> {
 }
 
 function getTreeUrl() {
-  return `https://mathsoftware.engineer/drawing-a-tree-on-canvas-with-xy-coordinates/web/root-node.json`
+  return `root-node.json`
 }
 
 ```
 <div class="social open-gh-btn my-4">
-  <a class="btn btn-github" href="https://github.com/tobiasbriones/blog/tree/main/mathswe/representation/repsymo/2dp/mrm/feat/drawing-a-tree-on-canvas-with-xy-coordinates/mrm-solution-tree---ep/src/main.ts" target="_blank">
+  <a class="btn btn-github" href="https://github.com/tobiasbriones/test-blog-deploy/tree/main/mathswe/representation/repsymo/2dp/mrm/feat/drawing-a-tree-on-canvas-with-xy-coordinates/mrm-solution-tree---ep/src/main.ts" target="_blank">
     <i class="fab fa-github">
       
     </i>
