@@ -5,6 +5,7 @@
 - [Pi Day (2022/03/14)](pi-day-2022-03-14)
 - [Pi Day (2023/03/14)](pi-day-2023-03-14)
 - [An Excited Time Drawing Mandala Fractals Today (2023-04-06)](an-excited-time-drawing-mandala-fractals-today-2023-04-06)
+- [Initializing Ops with a Cookie Banner \| Legal \| MathSwe Com (2024/03/20)](initializing-ops-with-a-cookie-banner---legal---mathswe-com-2024-03-20)
 - [Automating the Platform Operations and Beyond (2023/08/31)](automating-the-platform-operations-and-beyond-2023-08-31)
 - [New Article and Code Navigation Features (2023/09/09)](new-article-and-code-navigation-features-2023-09-09)
 - [Representation](representation)
